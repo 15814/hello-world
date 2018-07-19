@@ -3,7 +3,7 @@
 def generate():
     numberrow = ''
     sleft =r'{"rows":"'
-    sright = r'","person":[],"organization":[],"position":""},'
+    sright = r'","person":["","",""],"organization":["","",""],"position":["","",""]},'
 
     with open('./output.txt','w',encoding='utf-8') as wf:
         for i in range(207,324):
